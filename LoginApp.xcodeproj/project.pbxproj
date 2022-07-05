@@ -39,6 +39,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED98C9F128747D47003B54E3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ED98E1172871970B0088E821 /* AppDelegate.swift */,
+				ED98E1192871970B0088E821 /* SceneDelegate.swift */,
+				ED98E1252871970E0088E821 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ED98C9F228747D68003B54E3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED98E11B2871970B0088E821 /* LogInViewController.swift */,
+				ED98E12B2871E6320088E821 /* WelcomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ED98C9F328747E0E003B54E3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ED98E11D2871970B0088E821 /* Main.storyboard */,
+				ED98E1222871970E0088E821 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		ED98C9F428747E3D003B54E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED98E1202871970E0088E821 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED98C9F528747E9E003B54E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		ED98E10B2871970B0088E821 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +101,11 @@
 		ED98E1162871970B0088E821 /* LoginApp */ = {
 			isa = PBXGroup;
 			children = (
-				ED98E1172871970B0088E821 /* AppDelegate.swift */,
-				ED98E1192871970B0088E821 /* SceneDelegate.swift */,
-				ED98E11B2871970B0088E821 /* LogInViewController.swift */,
-				ED98E12B2871E6320088E821 /* WelcomeViewController.swift */,
-				ED98E11D2871970B0088E821 /* Main.storyboard */,
-				ED98E1202871970E0088E821 /* Assets.xcassets */,
-				ED98E1222871970E0088E821 /* LaunchScreen.storyboard */,
-				ED98E1252871970E0088E821 /* Info.plist */,
+				ED98C9F228747D68003B54E3 /* ViewControllers */,
+				ED98C9F528747E9E003B54E3 /* Models */,
+				ED98C9F328747E0E003B54E3 /* Storyboards */,
+				ED98C9F428747E3D003B54E3 /* Resources */,
+				ED98C9F128747D47003B54E3 /* App */,
 			);
 			path = LoginApp;
 			sourceTree = "<group>";
